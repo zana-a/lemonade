@@ -1,0 +1,9 @@
+{
+  "name": "lemonade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zana-a/lemonade",
+  "author": "zana-a <zana200@icloud.com>",
+  "license": "MIT",
+  "private": true
+}
