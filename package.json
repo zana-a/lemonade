@@ -11,6 +11,9 @@
     "storybook:build": "storybook build",
     "dev": "concurrently \"npm run vite:dev\" \"npm run storybook:dev\""
   },
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -40,7 +43,6 @@
     "eslint-plugin-storybook": "^0.8.0",
     "postcss": "^8.4.38",
     "storybook": "^8.1.9",
-    "tailwindcss": "^3.4.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1"

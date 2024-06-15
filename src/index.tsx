@@ -1,2 +1,2 @@
-import "@/index.css";
+import "@/assets/tailwind.styles.css";
 export * from "@/components";
