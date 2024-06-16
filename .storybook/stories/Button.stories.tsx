@@ -2,17 +2,17 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "../../dist";
 
 const meta = {
-  title: "Button",
+  title: "Components/Button",
   component: Button,
-  parameters: {},
+  args: {
+    children: "Example",
+  },
 } satisfies Meta<typeof Button>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: {
-    children: "Click me",
-  },
-};
+export const Primary: Story = {};
+
+export const Secondary: Story = {};

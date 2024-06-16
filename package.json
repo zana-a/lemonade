@@ -7,7 +7,7 @@
     "vite:dev": "vite build --watch",
     "vite:build": "tsc && vite build",
     "vite:lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "storybook:dev": "storybook dev -p 6006",
+    "storybook:dev": "storybook dev -p 6006 --no-open",
     "storybook:build": "storybook build",
     "dev": "concurrently \"npm run vite:dev\" \"npm run storybook:dev\""
   },
